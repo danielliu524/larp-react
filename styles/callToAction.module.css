@@ -1,0 +1,20 @@
+.section{
+  margin:100px auto;
+  width:80%;
+  background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../public/images/storefront.jpeg);
+  background-position:center;
+  background-size:cover;
+  border-radius:10px;
+  text-align:center;
+  padding:100px 0;
+}
+.section h1{
+  color:#fff;
+  margin-bottom:40px;
+  padding:0;
+}
+@media(max-width:700px){
+  .section h1{
+      font-size:24px;
+  }
+}

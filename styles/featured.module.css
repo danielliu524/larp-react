@@ -1,0 +1,23 @@
+.card {
+  flex-basis: 31%;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  transition: 0.3s;
+  color: #ffffff;
+  background-position:center;
+  background-size:cover;
+  position:relative;
+}
+
+.p {
+  font-size:14px;
+  font-weight:300;
+  line-height:22px;
+  padding:10px;
+}
+
+.card:hover{
+  box-shadow:0 0 20px 0px rgba(0,0,0,0.7);
+}
